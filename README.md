@@ -14,7 +14,7 @@ Exploitation playbooks are kept out of this repository on purpose.
 
 | Component  | Version              | Notes                                       |
 |------------|----------------------|---------------------------------------------|
-| WordPress  | 7.1 (latest)         | `wordpress:7.1-php8.3-apache`               |
+| WordPress  | 7.0.1 (intentionally vulnerable core) | `wordpress:7.0.1-php8.3-apache` |
 | PHP        | 8.3 (latest LTS-ish, official `latest` default) | `display_errors = On` (see `otherz/php.ini`) |
 | MySQL      | 8.0                  | health-checked, waits for WP-CLI             |
 | phpMyAdmin | 5.1.1 (vulnerable)   | see [phpMyAdmin section](#phpmyadmin)        |
@@ -82,6 +82,19 @@ $ bin/pull-logs.sh           # copies access.log + error.log from the WordPress 
 ## Vulnerabilities
 
 Feel free to contribute with pull requests ;)
+
+### WordPress core — "wp2shell" (CVE-2026-60137 + CVE-2026-63030)
+
+Core is pinned to **7.0.1**, which is vulnerable to both:
+
+* **CVE-2026-60137** — SQL injection in `WP_Query` (`author__not_in`), CWE-89.
+* **CVE-2026-63030** — REST API batch endpoint route confusion
+  (`/?rest_route=/batch/v1`), CWE-436, **CISA KEV**, actively exploited.
+
+Chained they give **unauthenticated remote code execution** on default
+installations: route-confusion smuggling past the batch validator plus a
+`UNION SELECT ... INTO OUTFILE` writing a webshell into
+`wp-content/cache/`. Fixed upstream in 7.0.2 / 6.9.5.
 
 All plugins and themes are vendored **at their exact vulnerable version** in
 this repository (see `plugins/` and `themes/`), so the lab runs out of the box.
@@ -196,7 +209,7 @@ $ DOCKER_USER=<your-dockerhub-username> bin/publish.sh
 ```
 
 This logs in, runs `bin/download-plugins.sh`, builds the image inline
-(`wordpress:7.1-php8.3-apache` + `otherz/` + `plugins/` + `themes/`) and pushes
+(`wordpress:7.0.1-php8.3-apache` + `otherz/` + `plugins/` + `themes/`) and pushes
 `<your-dockerhub-username>/dvwp:latest`.
 
 > PHP 8.3 is used (the official `wordpress:latest` default) so the intentionally

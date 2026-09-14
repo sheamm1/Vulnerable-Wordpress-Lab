@@ -29,7 +29,7 @@ docker login
 
 echo "==> Building $IMAGE (Dockerfile provided inline, none stored in repo)..."
 docker build -t "$IMAGE" - <<'EOF'
-FROM wordpress:7.1-php8.3-apache
+FROM wordpress:7.0.1-php8.3-apache
 
 COPY ./otherz /var/www/html/
 COPY ./otherz/php.ini /usr/local/etc/php/conf.d/zz-dvwp.ini

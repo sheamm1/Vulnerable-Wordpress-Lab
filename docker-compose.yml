@@ -16,7 +16,7 @@ services:
       retries: 15
 
   wordpress:
-    image: wordpress:7.1-php8.3-apache
+    image: wordpress:7.0.1-php8.3-apache
     restart: unless-stopped
     depends_on:
       mysql:
