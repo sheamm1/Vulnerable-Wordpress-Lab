@@ -1,8 +1,8 @@
-# Damn Vulnerable WordPress
+# Vulnerable Wordpress Lab
 
 Playground for WordPress hacking and [wpscan](https://github.com/wpscanteam/wpscan) testing.
 
-Source: **https://github.com/sheamm1/dvwp-vulnerable-lab** (fork of
+Source: **https://github.com/sheamm1/Vulnerable-Wordpress-Lab** (fork of
 [vavkamil/dvwp](https://github.com/vavkamil/dvwp))
 
 **DO NOT EXPOSE THIS TO INTERNET!**
@@ -27,8 +27,8 @@ docker-compose bind-mounts.
 ## Installation
 
 ```
-$ git clone https://github.com/sheamm1/dvwp-vulnerable-lab.git
-$ cd dvwp-vulnerable-lab/
+$ git clone https://github.com/sheamm1/Vulnerable-Wordpress-Lab.git
+$ cd Vulnerable-Wordpress-Lab/
 $ docker-compose up -d             # starts everything, wp-cli installs & activates everything automatically
 ```
 
