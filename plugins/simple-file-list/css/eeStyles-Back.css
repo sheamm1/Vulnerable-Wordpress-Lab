@@ -1,0 +1,717 @@
+/* Simple File List | Admin CSS | Mitchell Bennis | Element Engage, LLC | mitch@elementengage.com */
+
+
+.eeSFL_Admin {
+	max-width: 900px;
+/* 	font-size: 120%; */	
+}
+
+.eeSFL_Admin .eeSFL {
+	padding: 0;
+}
+
+.eeSFL_Admin .eeSFL .eeFiles { /* File List table */
+	background-color: #fcfcfc;
+}
+
+.wrap h2.nav-tab-wrapper {
+	clear: both;
+	margin-top: 20px;
+}
+
+
+.eeSFL_Admin h3 {
+	clear: left;
+	width: 75%;
+}
+
+p.eeTitle {
+	font-size: 200%;
+	font-weight: bold;
+}
+
+.tabList {
+	font-size: 90%;
+}
+
+.tabSupport {
+	float: right;
+}
+
+.eeSFL_Admin .eeActiveTab {
+    background-color: #daf3ff;
+    border-width: 2px;
+    border-bottom-width: 0;
+}
+
+
+#eeAdminActions {
+	background-color: #E5E5E5;
+	padding: 10px;
+	border: 1px solid #d6d6d6;
+	border-bottom: none;
+}
+.eeSFL #eeAdminActions p {
+	margin-top: 0;
+}
+.eeSFL #eeAdminActions .eeButton {
+	margin: 0 0 0 5px;
+}
+.eeSFL_Admin .eeAlignRight {
+	float: right;
+	margin: 0 1em 1em 0;
+}
+
+
+
+
+.eeSFL_Admin .eeSFL .eeSFL_EditFileWrap {
+	display: none;
+	width: auto;
+	margin: 5px 0;
+	padding: 10px 3%;
+	border: 1px solid #6b6b6b;
+	border-radius: 6px;
+	background-color: #f6f6f6;
+}
+.eeSFL_Admin .eeSFL .eeSFL_EditFileWrap h4 {
+	margin: 0;
+}
+.eeSFL_Admin .eeSFL .eeSFL_EditFileWrap label {
+	float: none;
+	display: inline-block;
+	width: 98%;
+	margin: 0;
+	text-align: left;
+}
+.eeSFL_Admin .eeSFL .eeSFL_EditFileWrap input[type=text] {
+	float: right;
+	display: inline-block;
+	width: 80%;
+	margin: 0; 
+}
+.eeSFL_Admin .eeSFL .eeSFL_EditFileWrap .eeDeleteButton:hover {
+	background-color: #a93838;
+	color: #EEE;
+}
+
+
+
+
+
+
+.eeSFL_Admin .eeAlignLeftTwoThirds {
+	float: left;
+	width: 66%;
+}
+
+.eeSFL form {
+	border: none;
+	padding: 0;
+}
+
+.eeSFL_Admin fieldset {
+	display: block;
+	position: relative;
+	clear: both;
+/*
+	border: 2px solid #DDD;
+	border-top-width: 0;
+*/
+	padding: 1em;
+/* 	margin: 1em; */
+/* 	background-color: #fafafa; */
+}
+#eeAdminFooter fieldset {
+	border-top-width: 2px;
+}
+
+.eeSFL_Admin label, .eeSFL_Admin span.eeLabel {
+	float: left;
+	clear: left;
+	width: 33%;
+	text-align: right;
+	margin-right: .5em;
+	padding: 4px;
+	margin-bottom: .25em;
+	background: #e9e9e9;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #5a5a5a;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #5a5a5a;
+}
+.eeSFL_Admin .eeRadioLabel {
+	clear: none;
+	width: auto;
+	background: transparent;
+}
+.eeSFL_Admin .eeSFL #eeSFL_Settings p {
+	display: inline;
+}
+
+.eeSFL_Admin .eeSFL #eeSFL_Settings select,
+.eeSFL_Admin .eeSFL #eeSFL_Settings input[type=text],
+.eeSFL_Admin .eeSFL #eeSFL_Settings input[type=range], 
+.eeSFL_Admin .eeSFL #eeSFL_Settings input[type=url], 
+.eeSFL_Admin .eeSFL #eeSFL_Settings input[type=password], 
+.eeSFL_Admin .eeSFL #eeSFL_Settings input[type=tel], 
+.eeSFL_Admin .eeSFL #eeSFL_Settings input[type=email],
+.eeSFL_Admin .eeSFL #eeSFL_Settings textarea, 
+.eeSFL_Admin .eeSFL #eeSFL_Settings span.eeValueDisplay {
+	float: left;
+}
+.eeSFL_Admin #eeSFL_Settings input[type=text], 
+.eeSFL_Admin .eeSFL #eeSFL_Settings input[type=email] {
+	clear: none;
+	width: 56%;
+	margin-bottom: 0;
+}
+
+.eeSFL_Admin #eeSFL_Settings input[type=range] {
+	width: 50%;
+	margin-right: 2%;
+}
+.eeSFL_Admin #eeSFL_Settings textarea {
+	margin-bottom: 10px;
+}
+.eeSFL_Admin #eeSFL_Settings input[type=radio] {
+	float: left;
+	width: 1.2em;
+	height: 1.2em;
+	display: inline-block;
+	margin-top: .325em;
+	margin-right: 2em;
+}
+.eeSFL_Admin #eeSFL_Settings input[type=checkbox] {
+	float: left;/*
+
+	width: 1.6em;
+	height: 1.6em;
+*/
+	display: inline-block;
+	
+	margin-top: .325em;
+	margin-right: .5em;
+}
+.eeSFL_Admin input[type=submit], 
+.eeSFL_Admin button {
+	font-size: 130%;
+	margin-bottom: .5em;
+}
+button.eeDeleteCheckedButton {
+	float: right;
+	display: inline-block;
+	width: auto;
+}
+
+.eeSFL_Admin p {
+	margin: 0;
+	margin-top: .325em;
+/* 	margin-bottom: 2em; */
+}
+
+.eeSFL_Admin .notice p {
+	margin: .5em 0;
+}
+
+
+/* File Rename Entry */
+
+.eeSFL_Admin span.eeSFL_FileRenameEntry {
+	float: none;
+	clear: none;
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+	border: none;
+	text-align: left;
+}
+.eeSFL .eeSFL_FileRenameEntry input[type=text] {
+	width: 60%;
+	margin: 0;
+	float: none;
+	clear: none;
+}
+.eeSFL .eeSFL_FileRenameEntry input[type=submit],
+.eeSFL .eeSFL_FileRenameEntry a.button {
+	float: none;
+	clear: none;
+	margin: 0;
+	margin-left: 10px;
+	font-size: 100%;
+}
+
+
+
+
+.eeSFL_Admin #eeSFL_SendPop {
+	max-width: 600px;
+}
+#eeSFL_SendPop textarea {
+	width: 100%;	
+}
+
+
+
+
+
+.eeNote {
+/* 	float: left; */
+	clear: both;
+	margin-bottom: 30px;
+	margin-left: 4%;
+	font-style: italic;
+}
+
+.eeAlert {
+	float: right;
+	font-size: 125%;
+	color: red;
+	background-color: #DDD;
+	margin: 20px;
+	padding: 4px;
+}
+
+.eeBacklink {
+	display: block;
+	text-align: center;
+	font-size: 70%;
+}
+
+#eeSFL_noFiles {
+	clear: both;
+	width: 100%;
+	padding: 2em;
+	padding-top: 10px;
+}
+#eeSFL_noFiles p {
+	font-size: 120%;
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+/*
+#eeSFL_Settings h2 {
+	width: 50%;
+}
+*/
+
+
+#eeListSettingsTable {
+	clear: left;
+	width: 100%;
+	max-width: 66%;
+}
+#eeListSettingsTable th,
+#eeListSettingsTable td {
+	padding-right: 20px;
+	text-align: left;
+}
+#eeListSettingsTable td {
+	
+}
+#eeListSettingsTable input[type="checkbox"] {
+    float: none;
+    width: 1.4em;
+    height: 1.4em;
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+}
+#eeListSettingsTable input[type="text"] {
+	margin: 0;
+}
+
+
+
+/* Top-Right Instructions Link / Save Button */
+.eeSFL_Admin .eeSFL #eeSFL_Settings {
+	position: relative;
+}
+
+.eeSFL_Admin .eeSFL #eeSFL_Settings p.eeSettingsRight {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: -2em;
+}
+
+.eeSFL .eeSFL_Save {
+	font-size: 120%;
+	background-color: #daf3ff;
+	-moz-box-shadow:    1px 1px 1px 1px #dbdbdb;
+	-webkit-box-shadow: 1px 1px 1px 1px #dbdbdb;
+	box-shadow:         1px 1px 1px 1px #dbdbdb;
+}
+
+
+
+/* SUPPORT Page */
+
+.eeSFL .eeSupp {
+	display: block;
+	clear: both;
+	border: 2px solid #DDD;
+	padding: 1em;
+	margin-top: 10px;
+}
+
+.eeSupp .eeSupp {
+	width: auto;
+}
+
+.eeSFL .eeSupp h2 {
+	font-size: 150%;
+}
+
+.eeSFL .eeSupp h3 {
+	font-size: 120%;
+}
+
+.eeSFL .eeSupp p {
+	font-size: 100%;
+	margin-bottom: 2em;
+}
+
+.eeSFL .eeSupp input[type=text],
+.eeSFL .eeSupp input[type=email],
+.eeSFL .eeSupp input[type=url],
+.eeSFL .eeSupp textarea {
+	float: left;
+	clear: none;
+	width: 60%;
+	font-size: 120%;
+}
+
+.eeSFL .eeSupp textarea {
+	height: 300px;
+}
+
+.eeSFL .eeSupp label {
+	float: left;
+	clear: left;
+	width: 25%;
+	text-align: right;
+	margin-right: 1%;
+	padding: 5px;
+	margin-bottom: 1em;
+	background: #DDD;
+	font-size: 110%;
+}
+
+.eeSFL .eeSupp #eeSupportFormSubmit {
+	font-size: 200%;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	float: left;
+	clear: both;
+}
+
+.eeSFL .eeSupp strong {
+	font-size: 120%;
+}
+
+
+#eeSupportBanner {
+	width: 300px;
+	height: auto;
+	padding: 5px;
+	margin: 5px;
+	border: 1px solid #DDD;
+	
+}
+
+#eeAdminFooter {
+	clear: both;
+	color: #333;
+	background-color: #E5E5E5;
+	padding: .5em .8em;
+}
+#eeAdminFooter p {
+	padding-bottom: 20px;
+}
+
+.eeClear {
+	clear: both;
+}
+
+.eeNoClear {
+	clear: none !important;
+	width: auto !important;
+}
+
+.eeRight {
+	float: right;
+	clear: right;
+}
+
+.eeButton {
+	float: left;
+	font-size: 125% !important;
+	margin: 6px;
+}
+.wp-core-ui .button,
+.wp-core-ui .button:hover {
+	color: #000000;
+	border-color: #a5a5a5;	
+}
+
+.eeSFL a.eeGet {
+	font-size: 120%;
+}
+
+.eeSFL_Admin span.eeContact_Required {
+	width: auto;
+	background-color: transparent;
+	float: left;
+	clear: none;
+	border: none;
+}
+
+#eeAdminActions br.eeClearFix {
+	display: block;
+	height: 1px;
+}
+
+
+#mitchellbennisHeadshot {
+	float: right;
+	margin-left: 10px;
+}
+
+
+.wrap #eeSFL_DevMode {
+/*
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 45%;
+*/
+
+	clear: both;
+	border: 2px dashed #333;
+	padding: 10px;
+}
+.eeAlert {
+	float: right;
+	font-size: 125%;
+	color: red;
+	background-color: #DDD;
+	margin: 20px;
+	padding: 4px;
+}
+
+
+.eeSFL_Admin .eeExtensions ul {
+	list-style: disc;
+	margin-left: 10%;
+	margin-bottom: 30px;
+}
+
+
+.eeHide {
+	display: none;
+}
+
+
+
+
+/* Shortcode Builder */
+
+#eeSFL_ShortCode {
+	margin: 5px 0;
+}
+
+#eeShortcodeControls {
+    clear: both;
+    width: 100%;
+}
+
+.eeSFL #eeCreatePostwithShortcode {
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+.eeSFL #eeCreatePostwithShortcode select,
+.eeSFL #eeCreatePostwithShortcode input[type=submit] {
+	margin: 0;
+	float: none;
+}
+#eeCreatePostwithShortcode select {
+	width: auto;
+	font-size: 120%;
+	padding: 5px;
+	padding-right: 20px;
+}
+
+
+
+
+
+
+
+
+.eeSFL form.eeShortcodeBuilderTop {
+	float: none;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: none;
+	text-align: center;
+}
+.eeShortcodeBuilderBottom {
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.eeShortcodeBuilderBottom p {
+	display: inline-block;
+	color: #696969;
+	background-color: #e8e8e8;
+	border: 1px solid #555;
+	width: auto;
+	padding: .5em .8em;
+	margin: 10px;
+	cursor: pointer;
+}
+.eeSFL .eeOn {
+	background-color: #b2b2b2;
+}
+.eeShortcodeBuilderBottom p:hover {
+	background-color: #b8b8b8;
+}
+.eeShortcodeBuilderBottom p b {
+	display: inline-block;
+	text-align: center;
+	width: 40px;
+	height: 100%;
+	padding: 0 5px;
+	margin-right: 5px;
+	background-color: #6d6d6d;
+	color: #EEE;
+}
+
+
+
+
+.eeSFL .eeSupp #eeSFL_ShortCode {
+	width: 100%;
+	font-size: 120%;
+	height: auto;
+}
+
+.eeSFL .eeSupp #eeShortcodeBuilder label {
+	display: inline-block;
+	clear: none;
+	text-align: left;
+	background-color: transparent;
+	border: none;
+	width: 40%;
+	margin: 10px;
+}
+.eeSFL .eeSupp #eeShortcodeBuilder select {
+	display: inline-block;
+	width: 100%;
+}
+
+
+.eeClearfix:before,
+.eeClearfix:after {
+  content: "";
+  display: table;
+}
+
+.eeClearfix:after {
+  clear: both;
+}
+
+.eeFullWidth {
+	display: block !important;
+	width: auto !important;
+	float: none !important;
+}
+
+.eeRight {
+/* 	max-width: 45%; */
+	height: auto;
+	float: right !important;
+	margin: 0 0 .5em .5em;
+}
+.eeSFL .eeCentered {
+	width: 100%;
+	text-align: center;
+}
+
+.eeSFL hr {
+	clear: both;
+	margin: 2em auto;
+}
+
+
+
+/* Admin-Side File List Over-Rides */
+
+.eeSFL table.eeFiles {
+	border-color: #E5E5E5;
+	font-size: 110%;
+}
+
+.eeSFL table.eeFiles th {
+	padding: 8px;
+	background-color: #23282D;
+}
+.eeSFL table.eeFiles td {
+	padding: .5em 0;
+	border-bottom: 1px solid #999;
+	text-overflow: clip;
+	overflow: hidden;
+	vertical-align: middle;
+}
+.eeSFL table.eeFiles td p.eeSFL_FileLink {
+	font-weight: bold;
+	font-size: 105%;
+}
+.eeSFL table.eeFiles td small.eeSFL_ListFileActions {
+	color: #000;
+	background: #e4e4e4;
+	padding: .2em .4em;
+	border: 1px solid #cbcbcb;
+	border-radius: .4em;
+	display: inline-block;
+	margin-top: 6px;
+	-moz-box-shadow:    1px 1px 1px 1px #dbdbdb;
+	-webkit-box-shadow: 1px 1px 1px 1px #dbdbdb;
+	box-shadow:         1px 1px 1px 1px #dbdbdb;
+}
+.eeSFL table.eeFiles td.eeSFL_Thumbnail img {
+	border: 1px solid #646464;
+	-moz-box-shadow:    1px 1px 1px 1px #dbdbdb;
+	-webkit-box-shadow: 1px 1px 1px 1px #dbdbdb;
+	box-shadow:         1px 1px 1px 1px #dbdbdb;
+	
+}
+.eeSFL table.eeFiles td.eeSFL_Thumbnail a.eeFolderIcon img {
+	border: none;
+	-moz-box-shadow:    none;
+	-webkit-box-shadow: none;
+	box-shadow:         none;
+}
+
+.eeSFL input[type="submit"] {
+    float: none;
+    margin: 20px;
+}
+
+.eeSFL a.eeDimmedLink {
+	color: #6a9db4;
+}
+.eeSFL a.eeDimmedLink:hover {
+	color: #0073aa;
+	text-decoration: underline;
+}
+

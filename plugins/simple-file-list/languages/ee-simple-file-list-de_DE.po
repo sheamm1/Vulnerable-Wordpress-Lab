@@ -1,0 +1,1660 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple File List\n"
+"POT-Creation-Date: 2020-04-06 11:50-0500\n"
+"PO-Revision-Date: 2020-04-06 11:52-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: ee-simple-file-list.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: ee-admin-page.php:40
+msgid "DEVELOPMENT MODE ON"
+msgstr "DEVELOPMENT MODE ON"
+
+#: ee-admin-page.php:62
+msgid "File List"
+msgstr "Dateiliste"
+
+#: ee-admin-page.php:71
+msgid "Author"
+msgstr "Autor"
+
+#: ee-admin-page.php:77
+msgid "Get Help"
+msgstr "Hilfe erhalten"
+
+#: ee-admin-page.php:83 ee-simple-file-list.php:458
+msgid "Settings"
+msgstr "Datei-Upload-Einstellungen"
+
+#: ee-admin-page.php:89 includes/ee-shortcode-builder.php:42
+msgid "Create Shortcode"
+msgstr "Shortcode erstellen"
+
+#: ee-admin-page.php:96
+msgid "Add Features"
+msgstr "Features hinzufügen"
+
+#: ee-admin-page.php:132 ee-admin-page.php:141
+msgid "File List Settings"
+msgstr "Einstellungen für die Liste der Dateien"
+
+#: ee-admin-page.php:149
+msgid "List Access Settings"
+msgstr "Listenzugriffseinstellungen"
+
+#: ee-admin-page.php:159
+msgid "File Upload Settings"
+msgstr "Datei-Upload-Einstellungen"
+
+#: ee-admin-page.php:165
+msgid "Display Settings"
+msgstr "Anzeigeneinstellungen"
+
+#: ee-admin-page.php:171
+msgid "Notification Settings"
+msgstr "Benachrichtigungseinstellungen"
+
+#: ee-email-engine.php:90
+msgid "File Upload Notice"
+msgstr "Benachrichtigung hochgeladen"
+
+#: ee-file-engine.php:134
+msgid "Deleted the File"
+msgstr "Die Datei gelöscht"
+
+#: ee-file-engine.php:139
+msgid "File Delete Failed"
+msgstr "Datei gelöscht"
+
+#: ee-file-engine.php:148
+msgid "Folder Delete Failed"
+msgstr "Ordnerlöschen fehlgeschlagen"
+
+#: ee-list-display.php:52
+msgid "No File List Found. Please Re-Scan"
+msgstr "Es wurde keine Dateiliste gefunden. Bitte re-Scan"
+
+#: ee-list-display.php:158 includes/ee-upload-form.php:65
+msgid "Upload Files"
+msgstr "Dateien hochladen"
+
+#: ee-list-display.php:162
+msgid "Re-Scan Files"
+msgstr "Dateien erneut scannen"
+
+#: ee-list-display.php:168
+msgid "Create Folder"
+msgstr "Ordner erstellen"
+
+#: ee-list-display.php:173
+msgid "Search Files"
+msgstr "Dateien durchsuchen"
+
+#: ee-list-display.php:183 ee-list-display.php:219
+msgid "Back to the Files"
+msgstr "Zurück zu den Dateien"
+
+#: ee-list-display.php:200
+msgid "Files"
+msgstr "Dateien"
+
+#: ee-list-display.php:201
+msgid "Folders"
+msgstr "Ordner"
+
+#: ee-list-display.php:202
+msgid "Sorted by"
+msgstr "Sortiert nach"
+
+#: ee-list-display.php:203
+msgid "Last Changed"
+msgstr "Zuletzt geändert"
+
+#: ee-list-display.php:259 includes/ee-list-settings.php:283
+msgid "Thumb"
+msgstr "Vorschaubild"
+
+#: ee-list-display.php:268 includes/ee-class.php:990
+#: includes/ee-list-settings.php:291
+msgid "Name"
+msgstr "Name"
+
+#: ee-list-display.php:278 ee-list-display.php:704
+#: includes/ee-list-settings.php:311
+msgid "Size"
+msgstr "Größe"
+
+#: ee-list-display.php:289 includes/ee-list-settings.php:301
+msgid "Date"
+msgstr "Datum"
+
+#: ee-list-display.php:569
+msgid "Submitted by"
+msgstr "Eingereicht von"
+
+#: ee-list-display.php:583
+msgid "Open"
+msgstr "Offen"
+
+#: ee-list-display.php:595
+msgid "Download"
+msgstr "Download"
+
+#: ee-list-display.php:598 ee-list-display.php:834
+msgid "Send"
+msgstr "Senden"
+
+#: ee-list-display.php:607
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: ee-list-display.php:614 ee-list-display.php:633
+msgid "Move"
+msgstr "Verschieben"
+
+#: ee-list-display.php:648
+msgid "Copy to List"
+msgstr "Kopieren in Liste"
+
+#: ee-list-display.php:653
+msgid "Grant Access"
+msgstr "Zugriff gewähren"
+
+#: ee-list-display.php:684
+msgid "Edit Details"
+msgstr "Details bearbeiten"
+
+#: ee-list-display.php:686 includes/ee-list-settings.php:288
+#: includes/ee-list-settings.php:336
+msgid "File Name"
+msgstr "Dateiname"
+
+#: ee-list-display.php:689 includes/ee-class.php:999
+msgid "Description"
+msgstr "Beschreibung"
+
+#: ee-list-display.php:694
+msgid "Save"
+msgstr "Speichern"
+
+#: ee-list-display.php:695 ee-list-display.php:833 ee-list-display.php:876
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: ee-list-display.php:696
+msgid "Delete"
+msgstr "Löschen"
+
+#: ee-list-display.php:699
+msgid "Added"
+msgstr "Hinzugefügt"
+
+#: ee-list-display.php:702
+msgid "Modified"
+msgstr "Geändert"
+
+#: ee-list-display.php:743
+msgid "Folder"
+msgstr "Ordner"
+
+#: ee-list-display.php:797
+msgid "Send Link"
+msgstr "Link Senden"
+
+#: ee-list-display.php:799
+msgid "Send an email with links to the files. Add more files if needed."
+msgstr ""
+"Senden Sie eine E-Mail mit Links zu den Dateien. Fügen Sie bei Bedarf "
+"weitere Dateien hinzu."
+
+#: ee-list-display.php:801
+msgid "Files to be sent:"
+msgstr "Zu sendende Dateien:"
+
+#: ee-list-display.php:807
+msgid "Your Address"
+msgstr "Ihre Adresse"
+
+#: ee-list-display.php:810
+msgid "The TO Address"
+msgstr "Die TO-Adresse"
+
+#: ee-list-display.php:813
+msgid "The CC Address"
+msgstr "Die CC-Adresse"
+
+#: ee-list-display.php:815
+msgid "Separate multiple addresses with a comma"
+msgstr "Trennen mehrerer Adressen mit einem Komma"
+
+#: ee-list-display.php:817
+msgid "The Subject"
+msgstr "Das Thema"
+
+#: ee-list-display.php:820
+msgid "The Message"
+msgstr "Die Botschaft"
+
+#: ee-list-display.php:830 ee-list-display.php:875
+msgid "Add Files"
+msgstr "Dateien hinzufügen"
+
+#: ee-list-display.php:845
+msgid "Add More Files"
+msgstr "Weitere Dateien hinzufügen"
+
+#: ee-list-display.php:898
+msgid "Upload some files and they will appear here."
+msgstr "Laden Sie einige Dateien hoch und sie werden hier angezeigt."
+
+#: ee-simple-file-list.php:109
+msgid "EXTENSION DISABLED"
+msgstr "EXTENSION DISABLED"
+
+#: ee-simple-file-list.php:110
+msgid "Please go to Plugins and update the extension to the latest version."
+msgstr ""
+"Bitte gehen Sie zu Plugins und aktualisieren Sie die Erweiterung auf die "
+"neueste Version."
+
+#: ee-simple-file-list.php:457
+msgid "Admin List"
+msgstr "Admin-Liste"
+
+#: ee-simple-file-list.php:523
+msgid "File Access"
+msgstr "Dateizugriff"
+
+#: ee-simple-file-list.php:524
+msgid "File Access Manager"
+msgstr "Dateizugriffs-Manager"
+
+#: includes/ee-admin-footer.php:5
+msgid ""
+"IMPORTANT: Allowing the public to upload files to your web server comes with "
+"risk."
+msgstr ""
+"WICHTIG: Wenn die Öffentlichkeit Dateien auf Ihren Webserver hochladen kann, "
+"ist ein Risiko verbunden."
+
+#: includes/ee-admin-footer.php:6
+msgid ""
+"Please go to Upload Settings and ensure that you only use the file types "
+"that you absolutely need."
+msgstr ""
+"Bitte gehen Sie zu Upload-Einstellungen und stellen Sie sicher, dass Sie nur "
+"die Dateitypen verwenden, die Sie unbedingt benötigen."
+
+#: includes/ee-admin-footer.php:7
+msgid "Open each file submitted carefully."
+msgstr "Öffnen Sie jede eingereichte Datei sorgfältig."
+
+#: includes/ee-admin-footer.php:10 support/ee-get-help.php:96
+msgid "Plugin Documentation"
+msgstr "Plugin Dokumentation"
+
+#: includes/ee-admin-footer.php:11
+msgid "Review Plugin"
+msgstr "Test-Plugin"
+
+#: includes/ee-admin-footer.php:12
+msgid "Plugin Website"
+msgstr "Plugin-Website"
+
+#: includes/ee-admin-footer.php:13
+msgid "Give Feedback"
+msgstr "Feedback geben"
+
+#: includes/ee-admin-footer.php:14
+msgid "Caution"
+msgstr "Vorsicht"
+
+#: includes/ee-admin-footer.php:17
+msgid "Buy Me Lunch"
+msgstr "Kaufen Sie Mich Mittagessen"
+
+#: includes/ee-admin-footer.php:22
+msgid "Plugin Version"
+msgstr "Plugin Version"
+
+#: includes/ee-admin-footer.php:26
+msgid "Folder Extension"
+msgstr "Ordnererweiterung"
+
+#: includes/ee-admin-footer.php:31
+msgid "Search Extension"
+msgstr "Sucherweiterung"
+
+#: includes/ee-admin-footer.php:36
+msgid "Access Extension"
+msgstr "Zugriffserweiterung"
+
+#: includes/ee-class.php:742
+msgid "File Notification"
+msgstr "Dateibenachrichtigung"
+
+#: includes/ee-class.php:809
+msgid "Uploader Information"
+msgstr "Uploader-Informationen"
+
+#: includes/ee-class.php:814
+msgid "Uploaded By"
+msgstr "Hochgeladen von"
+
+#: includes/ee-class.php:940 includes/ee-class.php:957
+msgid "This is not a valid email address."
+msgstr "Keine gültige E-Mail-Adresse."
+
+#: includes/ee-class.php:994
+msgid "Email"
+msgstr "E-Mail"
+
+#: includes/ee-email-settings.php:61
+msgid "Notification Settings Saved"
+msgstr "Benachrichtigungseinstellungen gespeichert"
+
+#: includes/ee-email-settings.php:81 includes/ee-list-display-settings.php:67
+#: includes/ee-list-settings.php:148 includes/ee-upload-settings.php:98
+msgid "Instructions"
+msgstr "Schritt für Schritt"
+
+#: includes/ee-email-settings.php:82 includes/ee-email-settings.php:163
+#: includes/ee-list-display-settings.php:68
+#: includes/ee-list-display-settings.php:222 includes/ee-list-settings.php:149
+#: includes/ee-list-settings.php:383 includes/ee-upload-settings.php:100
+#: includes/ee-upload-settings.php:197
+msgid "SAVE"
+msgstr "SPEICHERN"
+
+#: includes/ee-email-settings.php:87
+msgid "Notifications"
+msgstr "Benachrichtigungen"
+
+#: includes/ee-email-settings.php:100
+msgid "Enable Notifications"
+msgstr "Benachrichtigungen aktivieren"
+
+#: includes/ee-email-settings.php:102
+msgid ""
+"Send an email notification when a file is uploaded on the front-side of the "
+"website."
+msgstr ""
+"Senden Sie eine E-Mail-Benachrichtigung, wenn eine Datei auf der Vorderseite "
+"der Website hochgeladen wird."
+
+#: includes/ee-email-settings.php:113
+msgid "Notice Email"
+msgstr "E-Mail beachten"
+
+#: includes/ee-email-settings.php:115
+msgid "Send an email whenever a file is uploaded."
+msgstr "Senden Sie eine E-Mail, wenn eine Datei hochgeladen wird."
+
+#: includes/ee-email-settings.php:115
+msgid "Separate multiple addresses with a comma."
+msgstr "Trennen Sie mehrere Adressen mit einem Komma."
+
+#: includes/ee-email-settings.php:122
+msgid "Copy to Email"
+msgstr "Kopieren in E-Mail"
+
+#: includes/ee-email-settings.php:124
+msgid "Copy notice emails here."
+msgstr "Kopieren Sie hier Benachrichtigungs-E-Mails."
+
+#: includes/ee-email-settings.php:127
+msgid "Blind Copy to Email"
+msgstr "Blinde Kopie in E-Mail"
+
+#: includes/ee-email-settings.php:129
+msgid "Blind copy notice emails here."
+msgstr "Blind copy notice e-Mails hier."
+
+#: includes/ee-email-settings.php:135
+msgid "Sender Email"
+msgstr "Absender E-Mail"
+
+#: includes/ee-email-settings.php:137
+msgid "The notification message's reply-to address."
+msgstr "Die Antwortadresse der Benachrichtigung."
+
+#: includes/ee-email-settings.php:140
+msgid "Sender Name"
+msgstr "Absender Name"
+
+#: includes/ee-email-settings.php:142
+msgid "The visible name in the From field."
+msgstr "Der sichtbare Name im Feld Von."
+
+#: includes/ee-email-settings.php:145
+msgid "Notification Subject"
+msgstr "Benachrichtigungs-Thema"
+
+#: includes/ee-email-settings.php:147
+msgid "The notification email subject line."
+msgstr "Die Betreffzeile der Benachrichtigungs-E-Mail."
+
+#: includes/ee-email-settings.php:152
+msgid "Message Text"
+msgstr "Hinweis Text"
+
+#: includes/ee-email-settings.php:154
+msgid "This will be the text for the file upload notification messages."
+msgstr "Dies ist der Text für die Datei-Upload-Benachrichtigungen."
+
+#: includes/ee-email-settings.php:155
+msgid "To insert file information and link, use this shortcode:"
+msgstr ""
+"Um Dateiinformationen und Verknüpfungen einzufügen, verwenden Sie diesen "
+"Shortcode:"
+
+#: includes/ee-email-settings.php:156
+msgid "To insert a link pointing to the file list, use this shortcode:"
+msgstr ""
+"Um einen Link einzufügen, der auf die Dateiliste verweist, verwenden Sie "
+"diesen Shortcode:"
+
+#: includes/ee-functions.php:208
+msgid "Files uploaded"
+msgstr "Hochgeladene Dateien"
+
+#: includes/ee-functions.php:210
+msgid "File uploaded"
+msgstr "Datei hochgeladen"
+
+#: includes/ee-functions.php:252
+msgid "File Upload Complete"
+msgstr "Datei-Upload Complete"
+
+#: includes/ee-list-display-settings.php:49 includes/ee-list-settings.php:130
+msgid "List Settings Saved"
+msgstr "Listeneinstellungen gespeichert"
+
+#: includes/ee-list-display-settings.php:70
+msgid "Front-Side Settings"
+msgstr "Front-Side-Einstellungen"
+
+#: includes/ee-list-display-settings.php:93
+msgid "Appearance"
+msgstr "Aussehen"
+
+#: includes/ee-list-display-settings.php:96
+msgid "Preserve Spaces"
+msgstr "Preserve Spaces"
+
+#: includes/ee-list-display-settings.php:101
+msgid "File Name Spaces"
+msgstr "Dateinamen-Leerzeichen"
+
+#: includes/ee-list-display-settings.php:103
+msgid ""
+"Spaces in file names are replaced with hyphens in order to make the URL "
+"legal."
+msgstr ""
+"Leerzeichen in Dateinamen werden durch Bindestriche ersetzt, um die URL "
+"legal zu machen."
+
+#: includes/ee-list-display-settings.php:104
+msgid "This setting will revert this action for display."
+msgstr ""
+"Mit dieser Einstellung wird diese Aktion für die Anzeige zurückgesetzt."
+
+#: includes/ee-list-display-settings.php:109
+msgid "Show File Description"
+msgstr "Dateibeschreibung anzeigen"
+
+#: includes/ee-list-display-settings.php:114
+msgid "Description of the file"
+msgstr "Beschreibung der Datei"
+
+#: includes/ee-list-display-settings.php:116
+msgid "Display the file description below the file name."
+msgstr "Zeigen Sie die Dateibeschreibung unter dem Dateinamen an."
+
+#: includes/ee-list-display-settings.php:121
+msgid "Show File Actions"
+msgstr "Dateiaktionen anzeigen"
+
+#: includes/ee-list-display-settings.php:126
+msgid "Open | Download"
+msgstr "Open | Herunterladen"
+
+#: includes/ee-list-display-settings.php:128
+msgid "Show file action links below each file name on the front-side list"
+msgstr ""
+"Zeigen Sie Datei-Action-Links unter jedem Dateinamen auf der vorderen Seite "
+"der Liste"
+
+#: includes/ee-list-display-settings.php:133
+msgid "Show Extension"
+msgstr "Show-Erweiterung"
+
+#: includes/ee-list-display-settings.php:138
+msgid "File Type"
+msgstr "Dateityp"
+
+#: includes/ee-list-display-settings.php:140
+msgid "Show or hide the file extension."
+msgstr "Hier können Sie die Dateierweiterung ein- oder ausblenden."
+
+#: includes/ee-list-display-settings.php:145
+msgid "Show Header"
+msgstr "Zeige Kopfzeile"
+
+#: includes/ee-list-display-settings.php:150
+msgid "Show the table header"
+msgstr "Anzeigen der Tabellenüberschrift"
+
+#: includes/ee-list-display-settings.php:152
+msgid "Show the table header above the file list or not."
+msgstr "Zeigen Sie die Tabellenüberschrift über der Dateiliste an oder nicht."
+
+#: includes/ee-list-display-settings.php:157
+msgid "Show Upload Limits"
+msgstr "Upload-Limits anzeigen"
+
+#: includes/ee-list-display-settings.php:162
+msgid "Show the upload limitations"
+msgstr "Zeigen der Upload-Einschränkungen"
+
+#: includes/ee-list-display-settings.php:164
+msgid "Show the user file size, number and file type restrictions."
+msgstr ""
+"Zeigt die Einschränkungen für Benutzerdateigröße, -anzahl und -dateityp an."
+
+#: includes/ee-list-display-settings.php:169
+msgid "Functionality"
+msgstr "Funktionalität"
+
+#: includes/ee-list-display-settings.php:171
+msgid "Get Submitter Information"
+msgstr "Abrufen von Submitter-Informationen"
+
+#: includes/ee-list-display-settings.php:176
+msgid "Get name, email and description"
+msgstr "Name, E-Mail und Beschreibung abrufen"
+
+#: includes/ee-list-display-settings.php:178
+msgid "Display a form which must be filled out before a file is uploaded."
+msgstr ""
+"Zeigen Sie ein Formular an, das ausgefüllt werden muss, bevor eine Datei "
+"hochgeladen wird."
+
+#: includes/ee-list-display-settings.php:179
+msgid ""
+"Submissions are included within the upload notification email and added to "
+"the file details."
+msgstr ""
+"Einsendungen werden in die Upload-Benachrichtigungs-E-Mail aufgenommen und "
+"den Dateidetails hinzugefügt."
+
+#: includes/ee-list-display-settings.php:184
+msgid "Show Submitter Info"
+msgstr "Submitter-Informationen anzeigen"
+
+#: includes/ee-list-display-settings.php:189
+msgid "Show on Front-side"
+msgstr "Show auf der Vorderseite"
+
+#: includes/ee-list-display-settings.php:191
+msgid "Show the file submitters information on the website."
+msgstr "Zeigen Sie die Informationen der Dateieinreicher auf der Website an."
+
+#: includes/ee-list-display-settings.php:196
+msgid "Allow File Sending"
+msgstr "Dateisenden zulassen"
+
+#: includes/ee-list-display-settings.php:201
+msgid "Send via Email"
+msgstr "Senden per E-Mail"
+
+#: includes/ee-list-display-settings.php:203
+msgid "Allow front-side users to email links to files."
+msgstr ""
+"Erlauben Sie Front-Side-Benutzern, Links zu Dateien per E-Mail zu senden."
+
+#: includes/ee-list-display-settings.php:209
+msgid "Front-Side Manage"
+msgstr "Front-Side-Management"
+
+#: includes/ee-list-display-settings.php:214
+msgid "Use with Caution"
+msgstr "Einsatz mit Vorsicht"
+
+#: includes/ee-list-display-settings.php:216
+msgid "Allow file editing and deletion on the front side of the site."
+msgstr ""
+"Erlauben Sie das Bearbeiten und Löschen von Dateien auf der Vorderseite der "
+"Website."
+
+#: includes/ee-list-settings.php:49
+msgid "Cannot create the file directory. Reverting to default."
+msgstr ""
+"Kann das Dateiverzeichnis nicht erstellen. Auf die Standardeinstellung "
+"umkehren."
+
+#: includes/ee-list-settings.php:151
+msgid "List Settings"
+msgstr "Einstellungen auflisten"
+
+#: includes/ee-list-settings.php:166
+msgid "File List Directory"
+msgstr "Dateilistenverzeichnis"
+
+#: includes/ee-list-settings.php:168
+msgid "This must be relative to your Wordpress home folder."
+msgstr "Dies muss relativ zu Ihrem Wordpress-Basisordner sein."
+
+#: includes/ee-list-settings.php:169
+msgid "Default Location"
+msgstr "Standard-Standort"
+
+#: includes/ee-list-settings.php:170
+msgid "The directory you enter will be created if it does not exist."
+msgstr ""
+"Das eingegebene Verzeichnis wird erstellt, wenn es nicht vorhanden ist."
+
+#: includes/ee-list-settings.php:178
+msgid "Front-Side Display"
+msgstr "Anzeige der Dateiliste"
+
+#: includes/ee-list-settings.php:186 includes/ee-shortcode-builder.php:108
+#: includes/ee-shortcode-builder.php:129
+msgid "Show to Everyone"
+msgstr "Show für alle"
+
+#: includes/ee-list-settings.php:192
+msgid "Show to Only Logged in Users"
+msgstr "Nur für Benutzer angemeldet"
+
+#: includes/ee-list-settings.php:198
+msgid "Show to Only Logged in Admins"
+msgstr "Nur in Admins angemeldet"
+
+#: includes/ee-list-settings.php:204
+msgid "Hide the File List Completely"
+msgstr "Die Aktenliste komplett ausblenden"
+
+#: includes/ee-list-settings.php:209
+msgid "Determine who you will show the front-side list to."
+msgstr "Bestimmen Sie, wem Sie die Front-Side-Liste anzeigen möchten."
+
+#: includes/ee-list-settings.php:213
+msgid "Back-Side Settings Access"
+msgstr "Zugriff auf die Back-Side-Einstellungen"
+
+#: includes/ee-list-settings.php:221
+msgid "Show to Subscribers and Above"
+msgstr "Abonnenten und höher anzeigen"
+
+#: includes/ee-list-settings.php:228
+msgid "Show to Contributers and Above"
+msgstr "Den Beitragenden und darüber anzeigen"
+
+#: includes/ee-list-settings.php:235
+msgid "Show to Authors and Above"
+msgstr "Den Autoren und darüber anzeigen"
+
+#: includes/ee-list-settings.php:242
+msgid "Show to Editors and Above"
+msgstr "Anzeigen für Redakteure und höher"
+
+#: includes/ee-list-settings.php:249
+msgid "Show to Admins Only"
+msgstr "Nur Admins anzeigen"
+
+#: includes/ee-list-settings.php:254
+msgid "Determine who can access the back-side settings."
+msgstr ""
+"Bestimmen Sie, wer auf die Einstellungen auf der Rückseite zugreifen kann."
+
+#: includes/ee-list-settings.php:261
+msgid "Information to Show"
+msgstr "Informationen zeigen"
+
+#: includes/ee-list-settings.php:263
+msgid "Limit the file information to display on the front-side file list."
+msgstr ""
+"Beschränken Sie die Dateiinformationen, die in der Front-Side-Dateiliste "
+"angezeigt werden sollen."
+
+#: includes/ee-list-settings.php:270
+msgid "Item"
+msgstr "Artikel"
+
+#: includes/ee-list-settings.php:271
+msgid "Show"
+msgstr "Anzeigen"
+
+#: includes/ee-list-settings.php:272
+msgid "Label"
+msgstr "Beschriftung"
+
+#: includes/ee-list-settings.php:278
+msgid "File Thumbnail"
+msgstr "Datei-Miniaturansicht"
+
+#: includes/ee-list-settings.php:296 includes/ee-list-settings.php:341
+msgid "File Date"
+msgstr "Datum der Datei"
+
+#: includes/ee-list-settings.php:306 includes/ee-list-settings.php:346
+msgid "File Size"
+msgstr "Dateigröße"
+
+#: includes/ee-list-settings.php:326
+msgid "File Sorting and Order"
+msgstr "Dateisortierung und Bestellung"
+
+#: includes/ee-list-settings.php:328
+msgid "Sort By"
+msgstr "Sortieren nach"
+
+#: includes/ee-list-settings.php:351
+msgid "Random"
+msgstr "Zufällig"
+
+#: includes/ee-list-settings.php:355
+msgid "Sort the list by name, date, file size, or randomly."
+msgstr ""
+"Sortieren Sie die Liste nach Namen, Datum, Dateigröße oder Zufallsprinzip."
+
+#: includes/ee-list-settings.php:359
+msgid "Reverse Order"
+msgstr "Umgekehrte Reihenfolge"
+
+#: includes/ee-list-settings.php:364
+msgid "Descending"
+msgstr "Absteigend"
+
+#: includes/ee-list-settings.php:366
+msgid "Check this box to reverse the default sort order."
+msgstr ""
+"Klicken Sie auf dieses Kästchen, um die Standardsortierung rückgängig zu "
+"machen."
+
+#: includes/ee-list-settings.php:367
+msgid "The list is sorted Ascending by default"
+msgstr "Die Liste wird standardmäßig als Aufsteiger sortiert"
+
+#: includes/ee-list-settings.php:367
+msgid "Small to Large"
+msgstr "Klein bis groß"
+
+#: includes/ee-list-settings.php:367
+msgid "Old to New"
+msgstr "Alt zu Neu"
+
+#: includes/ee-list-settings.php:371
+msgid "File List Performance"
+msgstr "Dateilistenleistung"
+
+#: includes/ee-list-settings.php:373
+msgid "Re-Scan Interval"
+msgstr "Re-Scan-Intervall"
+
+#: includes/ee-list-settings.php:375
+msgid "Hours"
+msgstr "Stunden"
+
+#: includes/ee-list-settings.php:376
+msgid "Choose how often the file list on your disc drive is re-scanned."
+msgstr ""
+"Wählen Sie aus, wie oft die Dateiliste auf dem Laufwerk erneut gescannt wird."
+
+#: includes/ee-list-settings.php:377
+msgid "Set to zero to re-scan on each list page load."
+msgstr ""
+"Legen Sie den Wert auf Null, um bei jedem Laden der Listenseite erneut zu "
+"scannen."
+
+#: includes/ee-list-settings.php:378
+msgid ""
+"If you use FTP or another method to upload files to your list, set the "
+"interval to zero."
+msgstr ""
+"Wenn Sie FTP oder eine andere Methode zum Hochladen von Dateien in Ihre "
+"Liste verwenden, legen Sie das Intervall auf Null fest."
+
+#: includes/ee-shortcode-builder.php:26
+msgid "Default"
+msgstr "Standard"
+
+#: includes/ee-shortcode-builder.php:40
+msgid "Shortcode Documentation"
+msgstr "Kurzcode-Dokumentation"
+
+#: includes/ee-shortcode-builder.php:44
+msgid ""
+"Simply place this bit of shortcode in any post, page or widget that you "
+"would like the plugin to appear."
+msgstr ""
+"Legen Sie einfach dieses bisschen Shortcode in jedem Beitrag, jeder Seite "
+"oder Widget, dass Sie möchten, dass das Plugin erscheint."
+
+#: includes/ee-shortcode-builder.php:45
+msgid ""
+"Both the file list and uploader will be displayed using the plugin settings."
+msgstr ""
+"Sowohl die Dateiliste als auch der Uploader werden mit den Plugin-"
+"Einstellungen angezeigt."
+
+#: includes/ee-shortcode-builder.php:46
+msgid ""
+"Optionally, use the Shortcode Builder below to create a custom shortcode."
+msgstr ""
+"Optional können Sie den Shortcode-Generator unten verwenden, um einen "
+"benutzerdefinierten Shortcode zu erstellen."
+
+#: includes/ee-shortcode-builder.php:48
+msgid "COPY"
+msgstr "KOPIEREN"
+
+#: includes/ee-shortcode-builder.php:61
+msgid "Create Page with Shortcode"
+msgstr "Seite mit Shortcode erstellen"
+
+#: includes/ee-shortcode-builder.php:62
+msgid "Create Post with Shortcode"
+msgstr "Post mit Shortcode erstellen"
+
+#: includes/ee-shortcode-builder.php:75
+msgid "Shortcode Builder"
+msgstr "Shortcode-Builder"
+
+#: includes/ee-shortcode-builder.php:77
+msgid ""
+"Use this Shortcode Builder to create a customized shortcode that over-rides "
+"your default settings."
+msgstr ""
+"Verwenden Sie diesen Shortcode-Generator, um einen benutzerdefinierten "
+"Shortcode zu erstellen, der Ihre Standardeinstellungen überlagert."
+
+#: includes/ee-shortcode-builder.php:104
+msgid "Show File List"
+msgstr "Aktenliste anzeigen"
+
+#: includes/ee-shortcode-builder.php:112 includes/ee-shortcode-builder.php:133
+msgid "Show Only to Logged-in Users"
+msgstr "Nur für Logged-In-Nutzer anzeigen"
+
+#: includes/ee-shortcode-builder.php:116 includes/ee-shortcode-builder.php:137
+msgid "Show Only to Logged-in Administrators"
+msgstr "Nur für Logged-in-Administratoren anzeigen"
+
+#: includes/ee-shortcode-builder.php:120
+msgid "Hide the List"
+msgstr "Die Liste verstecken"
+
+#: includes/ee-shortcode-builder.php:125
+msgid "Show Uploader"
+msgstr "Uploader anzeigen"
+
+#: includes/ee-shortcode-builder.php:141
+msgid "Hide the Uploader"
+msgstr "Uploader verstecken"
+
+#: includes/ee-upload-form.php:98
+msgid "Processing the Upload"
+msgstr "Verarbeiten des Uploads"
+
+#: includes/ee-upload-form.php:100
+msgid "Upload"
+msgstr "Hochladen"
+
+#: includes/ee-upload-form.php:104
+msgid "File Limit"
+msgstr "Datei-Limit"
+
+#: includes/ee-upload-form.php:104
+msgid "files"
+msgstr "Dateien"
+
+#: includes/ee-upload-form.php:106
+msgid "Size Limit"
+msgstr "Größenbegrenzer"
+
+#: includes/ee-upload-form.php:108
+msgid "per file"
+msgstr "Pro Datei"
+
+#: includes/ee-upload-form.php:110
+msgid "Types Allowed"
+msgstr "Zulässige Typen"
+
+#: includes/ee-upload-form.php:112
+msgid "Drag-and-drop files here or use the Browse button."
+msgstr ""
+"Ziehen Sie Dateien hier per Drag-and-Drop oder verwenden Sie die "
+"Schaltfläche Durchsuchen."
+
+#: includes/ee-upload-form.php:129
+msgid "No upload directory configured."
+msgstr "Kein Upload-Verzeichnis konfiguriert."
+
+#: includes/ee-upload-settings.php:78
+msgid "Uploader Settings Saved"
+msgstr "Uploder-Einstellungen gerettet"
+
+#: includes/ee-upload-settings.php:102
+msgid "Upload Settings"
+msgstr "Upload Einstellungen"
+
+#: includes/ee-upload-settings.php:111
+msgid "List Location"
+msgstr "Listenort"
+
+#: includes/ee-upload-settings.php:118
+msgid "Allow File Upload"
+msgstr "Erlaube Dateiupload"
+
+#: includes/ee-upload-settings.php:126
+msgid "Anyone Can Upload"
+msgstr "Jeder kann hochladen"
+
+#: includes/ee-upload-settings.php:132
+msgid "Only Logged in Users Can Upload"
+msgstr "Nur in Usern eingeloggt kann Upload"
+
+#: includes/ee-upload-settings.php:138
+msgid "Only Logged in Admins Can Upload"
+msgstr "Nur in Admins eingeloggt kann Upload"
+
+#: includes/ee-upload-settings.php:144
+msgid "Hide the Front Side Uploader Completely"
+msgstr "Den vordere Seitenaufladen komplett verstecken"
+
+#: includes/ee-upload-settings.php:147
+msgid "Allow anyone to upload, only logged-in users, administrators or nobody."
+msgstr ""
+"Erlauben Sie jedem das Hochladen, nur angemeldete Benutzer, Administratoren "
+"oder niemanden."
+
+#: includes/ee-upload-settings.php:157
+msgid "Upload Limit"
+msgstr "Hochladebegrenzung"
+
+#: includes/ee-upload-settings.php:160
+msgid "The maximum number of files that may be uploaded per submission."
+msgstr ""
+"Die maximale Anzahl von Dateien, die pro Einreichung hochgeladen werden "
+"können."
+
+#: includes/ee-upload-settings.php:168
+msgid "Maximum File Size"
+msgstr "Maximale Dateigrösse"
+
+#: includes/ee-upload-settings.php:171
+msgid "Your hosting limits the maximum file upload size to"
+msgstr "Ihr Hosting begrenzt die maximale Datei-Upload-Größe auf"
+
+#: includes/ee-upload-settings.php:177
+msgid "Allowed File Types"
+msgstr "Erlaubte Dateitypen"
+
+#: includes/ee-upload-settings.php:178
+msgid "Only use the file types you absolutely need, such as"
+msgstr "Verwenden Sie nur die Dateitypen, die Sie unbedingt benötigen, wie"
+
+#: includes/ee-upload-settings.php:184
+msgid "Allow Overwriting"
+msgstr "Überschreiben zulassen"
+
+#: includes/ee-upload-settings.php:189
+msgid "Do not number files, overwrite instead."
+msgstr "Zahlen Sie keine Dateien, sondern überschreiben Sie sie."
+
+#: includes/ee-upload-settings.php:191
+msgid "Existing files with the same name will be overwritten."
+msgstr "Vorhandene Dateien mit demselben Namen werden überschrieben."
+
+#: includes/ee-upload-settings.php:192
+msgid "Use with caution!"
+msgstr "Einsatz mit Vorsicht!"
+
+#: support/ee-get-extensions.php:26
+msgid "Add Feature Extensions"
+msgstr "Hinzufügen von Feature-Erweiterungen"
+
+#: support/ee-get-extensions.php:28
+msgid ""
+"Extensions add extended feature support to the free version of Simple File "
+"List. They are designed to improve the management of larger, more complex, "
+"file lists."
+msgstr ""
+"Erweiterungen fügen der kostenlosen Version von Simple File List erweiterte "
+"Funktionsunterstützung hinzu. Sie wurden entwickelt, um die Verwaltung "
+"größerer, komplexerer Dateilisten zu verbessern."
+
+#: support/ee-get-extensions.php:34
+msgid "Add Folder Support Now"
+msgstr "Jetzt den Folder-Support hinzufügen"
+
+#: support/ee-get-extensions.php:36
+msgid "Folder Support"
+msgstr "Ordnerunterstützung"
+
+#: support/ee-get-extensions.php:40
+msgid ""
+"Adds an extension that allows folder listing, navigation and management "
+"capabilities."
+msgstr ""
+"Fügt eine Erweiterung hinzu, die Ordnerlisten-, Navigations- und "
+"Verwaltungsfunktionen ermöglicht."
+
+#: support/ee-get-extensions.php:43
+msgid "Create folders and unlimited levels of sub-folders."
+msgstr "Erstellen Sie Ordner und unbegrenzte Ebenen von Unterordnern."
+
+#: support/ee-get-extensions.php:44
+msgid "Use a shortcode attribute to display specific folders."
+msgstr "Verwenden Sie ein Shortcode-Attribut, um bestimmte Ordner anzuzeigen."
+
+#: support/ee-get-extensions.php:45
+msgid "Display different folders in different places on your site."
+msgstr ""
+"Zeigen Sie verschiedene Ordner an verschiedenen Orten auf Ihrer Website an."
+
+#: support/ee-get-extensions.php:46
+msgid ""
+"You can even show several different folders on the same page and within "
+"widgets."
+msgstr ""
+"Sie können sogar mehrere verschiedene Ordner auf der gleichen Seite und "
+"innerhalb von Widgets anzeigen."
+
+#: support/ee-get-extensions.php:47
+msgid "Front-side users cannot navigate above the folder you specify."
+msgstr ""
+"Benutzer an der Frontseite können nicht über dem von Ihnen angegebenen "
+"Ordner navigieren."
+
+#: support/ee-get-extensions.php:48
+msgid "Breadcrumb navigation indicates where you are."
+msgstr "Die Brotkrume-Navigation zeigt an, wo Sie sich befinden."
+
+#: support/ee-get-extensions.php:49
+msgid "Easily move files or entire folders."
+msgstr "Einfaches Verschieben von Dateien oder ganzen Ordnern."
+
+#: support/ee-get-extensions.php:50
+msgid "Easily rename any folder."
+msgstr "Einfach jeden Ordner umbenennen."
+
+#: support/ee-get-extensions.php:51
+msgid "Easily delete any folder, along with all contents."
+msgstr "Löschen Sie einfach jeden Ordner, zusammen mit allen Inhalten."
+
+#: support/ee-get-extensions.php:52
+msgid "Choose to sort folders first or sort along with the files."
+msgstr ""
+"Wählen Sie aus, ob Sie zuerst Ordner sortieren oder zusammen mit den Dateien "
+"sortieren möchten."
+
+#: support/ee-get-extensions.php:53
+msgid "Optionally display folder sizes."
+msgstr "Optional Ordnergrößen anzeigen."
+
+#: support/ee-get-extensions.php:54 support/ee-get-extensions.php:85
+msgid "Updating to newer versions is just like other Wordpress plugins."
+msgstr ""
+"Die Aktualisierung auf neuere Versionen ist genau wie andere Wordpress-"
+"Plugins."
+
+#: support/ee-get-extensions.php:55
+msgid "How to Organize Your Files into Folders"
+msgstr "So organisieren Sie Ihre Dateien in Ordnern"
+
+#: support/ee-get-extensions.php:56 support/ee-get-extensions.php:86
+msgid "See the Demo"
+msgstr "Siehe Demo"
+
+#: support/ee-get-extensions.php:69
+msgid "Add Search &amp; Pagination Now"
+msgstr "Suchen - Paginierung jetzt hinzufügen"
+
+#: support/ee-get-extensions.php:75
+msgid ""
+"Adds searching and pagination functionality to Simple File List. It is "
+"designed to make very large file lists more manageable."
+msgstr ""
+"Fügt der einfachen Dateiliste Such- und Paginierungsfunktionen hinzu. Es "
+"wurde entwickelt, um sehr große Dateilisten leichter zu verwalten."
+
+#: support/ee-get-extensions.php:78
+msgid "Adds a search bar above the file list."
+msgstr "Fügt eine Suchleiste über der Dateiliste hinzu."
+
+#: support/ee-get-extensions.php:79
+msgid "Search by name and/or a date range (if the date column is shown)."
+msgstr ""
+"Suchen Sie nach Name und/oder einem Datumsbereich (wenn die Datumsspalte "
+"angezeigt wird)."
+
+#: support/ee-get-extensions.php:80
+msgid "Searches within sub-folder. (But not above the current folder)"
+msgstr ""
+"Sucht innerhalb des Unterordners. (Aber nicht über dem aktuellen Ordner)"
+
+#: support/ee-get-extensions.php:81
+msgid "Pagination breaks up large file lists into smaller pages."
+msgstr "Paginierung unterteilt große Dateilisten in kleinere Seiten."
+
+#: support/ee-get-extensions.php:82
+msgid "Define the number of files per page in the settings."
+msgstr "Definieren Sie die Anzahl der Dateien pro Seite in den Einstellungen."
+
+#: support/ee-get-extensions.php:83
+msgid "Show or hide the search bar and/or pagination in the settings."
+msgstr ""
+"Ein- oder Ausblenden der Suchleiste und/oder Paginierung in den "
+"Einstellungen."
+
+#: support/ee-get-extensions.php:84
+msgid "Use a shortcode to place a search form anywhere on your website."
+msgstr ""
+"Verwenden Sie einen Shortcode, um ein Suchformular an einer beliebigen "
+"Stelle auf Ihrer Website zu platzieren."
+
+#: support/ee-get-help.php:98
+msgid "Support Request"
+msgstr "Support-Anfrage"
+
+#: support/ee-get-help.php:100
+msgid ""
+"Do you need help or have a question? Send a message and I will reply "
+"promptly."
+msgstr ""
+"Benötigen Sie Hilfe oder haben Sie eine Frage? Senden Sie eine Nachricht und "
+"ich werde umgehend antworten."
+
+#: support/ee-get-help.php:116
+msgid "Your Name"
+msgstr "Ihr Name"
+
+#: support/ee-get-help.php:119
+msgid "Your Email"
+msgstr "Ihre E-Mail"
+
+#: support/ee-get-help.php:122
+msgid "Page with Shortcode"
+msgstr "Seite mit Shortcode"
+
+#: support/ee-get-help.php:125
+msgid "Your Message"
+msgstr "Ihre Nachricht"
+
+#: support/ee-get-help.php:147
+msgid "SEND"
+msgstr "SENDEN"
+
+#: support/ee-get-help.php:151
+msgid ""
+"Basic plugin environment details will be sent along with your message to:"
+msgstr ""
+"Grundlegende Plugin-Umgebungsdetails werden zusammen mit Ihrer Nachricht an "
+"gesendet:"
+
+#: support/ee-get-help.php:152
+msgid "To help me further, please include this information"
+msgstr "Um mir weiter zu helfen, geben Sie bitte diese Informationen an"
+
+#: support/ee-get-help.php:154
+msgid "Click here"
+msgstr "Hier klicken"
+
+#: support/ee-get-help.php:154
+msgid "Click the \"Copy site info to clipboard button\""
+msgstr ""
+"Klicken Sie auf die Schaltfläche \"Websiteinformationen in Zwischenablage "
+"kopieren\""
+
+#: support/ee-get-help.php:154
+msgid "Paste the result into the message above."
+msgstr "Fügen Sie das Ergebnis in die obige Nachricht ein."
+
+#: support/ee-plugin-author.php:17
+msgid "Show Your Support"
+msgstr "Zeigen Sie Ihren Support"
+
+#: support/ee-plugin-author.php:23
+msgid "Thank You"
+msgstr "Vielen Dank"
+
+#: support/ee-plugin-author.php:25
+msgid ""
+"Thank you for using my plugin. I am proud of this work and am committed to "
+"supporting it."
+msgstr ""
+"Vielen Dank für die Verwendung meines Plugins. Ich bin stolz auf diese "
+"Arbeit und unterstütze sie."
+
+#: support/ee-plugin-author.php:25
+msgid "The goal is to keep it simple, yet make it do what you need it to do."
+msgstr ""
+"Das Ziel ist es, es einfach zu halten, aber machen Sie es tun, was Sie "
+"brauchen, um es zu tun."
+
+#: support/ee-plugin-author.php:25
+msgid "Tell me about the features that you want."
+msgstr "Erzählen Sie mir von den Funktionen, die Sie wollen."
+
+#: support/ee-plugin-author.php:31
+msgid "Contact Me"
+msgstr "Kontaktiere mich"
+
+#: support/ee-plugin-author.php:31
+msgid "Feedback or Questions"
+msgstr "Feedback oder Fragen"
+
+#: support/ee-plugin-author.php:37
+msgid "Contributors"
+msgstr "Mitwirkende"
+
+#: support/ee-plugin-author.php:45
+msgid "Thanks to"
+msgstr "Ich danke"
+
+#: support/ee-support-functions.php:62
+msgid "The message failed to send."
+msgstr "Die Nachricht versäumte es, zu senden."
+
+#. Plugin Name of the plugin/theme
+msgid "Simple File List"
+msgstr "Einfache Aktenliste"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://simplefilelist.com"
+msgstr "http://simplefilelist.com"
+
+#. Description of the plugin/theme
+msgid ""
+"A full-featured File List Manager | <a href=\"https://simplefilelist.com/"
+"donations/simple-file-list-project/\">Donate</a> | <a href=\"admin.php?"
+"page=ee-simple-file-list&tab=extensions\">Add Extensions</a>"
+msgstr ""
+"Ein voll funktionsfähiger Dateilisten-Manager | <a href=\"https://"
+"simplefilelist.com/donations/simple-file-list-project/\">Spenden</a> | <a "
+"href=\"admin.php?page=ee-simple-file-list&tab=extensions\">Hinzufügen von "
+"Erweiterungen</a>"
+
+#. Author of the plugin/theme
+msgid "Mitchell Bennis"
+msgstr ""
+
+#~ msgid "Main File List Settings"
+#~ msgstr "Hauptdateilisteneinstellungen"
+
+#~ msgid "Move to Folder"
+#~ msgstr "Verschieben in Ordner"
+
+#~ msgid "FFmpeg Error - File Not Created"
+#~ msgstr "FFmpeg-Fehler-Datei nicht erstellt"
+
+#~ msgid "Send Notification"
+#~ msgstr "Benachrichtigung verschicken"
+
+#~ msgid "Mitchell Bennis - Element Engage, LLC"
+#~ msgstr "Mitchell Bennis-Element Engage, LLC"
+
+#~ msgid "http://elementengage.com"
+#~ msgstr "http://elementengage.com"
+
+#~ msgid "User Manager"
+#~ msgstr "User Manager"
+
+#~ msgid "News"
+#~ msgstr "Neuigkeiten"
+
+#~ msgid "Buy Me a Beer"
+#~ msgstr "Kaufen Sie mir ein Bier"
+
+#~ msgid "Greetings"
+#~ msgstr "Grußworte"
+
+#~ msgid "located at"
+#~ msgstr "Das Hotel befindet sich bei"
+
+#~ msgid "Your Information"
+#~ msgstr "Ihre Information"
+
+#~ msgid "Comments"
+#~ msgstr "Kommentare"
+
+#~ msgid "You should know that"
+#~ msgstr "Das sollten Sie wissen"
+
+#~ msgid "files have"
+#~ msgstr "Akten haben"
+
+#~ msgid "a file has"
+#~ msgstr "Eine Datei hat"
+
+#~ msgid "been uploaded to your website"
+#~ msgstr "Auf Ihre Website hochgeladen"
+
+#~ msgid "Thumbnail File Delete Failed"
+#~ msgstr "Miniatur-Datei gelöscht"
+
+#~ msgid "Owner"
+#~ msgstr "Eigentümer"
+
+#~ msgid "Rename"
+#~ msgstr "Umbenennen"
+
+#~ msgid "Number of Items"
+#~ msgstr "Anzahl"
+
+#~ msgid "You can use the uploader without showing the file list."
+#~ msgstr "Sie können den Uploader verwenden, ohne die Dateiliste anzuzeigen."
+
+#~ msgid "Show File Date"
+#~ msgstr "Datumstermin anzeigen"
+
+#~ msgid "Show File Size"
+#~ msgstr "Dateigröße anzeigen"
+
+#~ msgid "Allow Front Delete"
+#~ msgstr "Front löschen lassen"
+
+#~ msgid "Upload Directory"
+#~ msgstr "Upload-Verzeichnis"
+
+#~ msgid "is the default"
+#~ msgstr "Die Pleite"
+
+#~ msgid "Your website must use a FQDN in order to change the path."
+#~ msgstr "Ihre Website muss einen FQDN verwenden, um den Pfad zu ändern."
+
+#~ msgid "Yes"
+#~ msgstr "Ja"
+
+#~ msgid "No"
+#~ msgstr "Nein"
+
+#~ msgid "Name, Email, with optional text Notes."
+#~ msgstr "Name, E-Mail, mit optionalen Textzinsen."
+
+#~ msgid "Submissions are sent to the Notice Email."
+#~ msgstr "Einsendungen werden an die Nachricht E-Mail geschickt."
+
+#~ msgid "Uploading"
+#~ msgstr "Lade gerade hoch"
+
+#~ msgid ""
+#~ "To select multiple files, hold down the Control key while choosing files"
+#~ msgstr ""
+#~ "Um mehrere Dateien auszuwählen, halten Sie die Kontrolltaste bei der "
+#~ "Auswahl der Dateien fest"
+
+#~ msgid "Command key on Macs"
+#~ msgstr "Befehlsschlüssel zu Macs"
+
+#~ msgid ""
+#~ "Thank you for using my plugin. I am proud of this work and want very much "
+#~ "to improve upon it. The goal is to keep it simple, yet make it do what "
+#~ "you need it to do. Tell me about the features that you want!"
+#~ msgstr ""
+#~ "Vielen Dank für die Verwendung meines Plugins. Ich bin stolz auf diese "
+#~ "Arbeit und möchte sie sehr verbessern. Das Ziel ist es, es einfach zu "
+#~ "halten, aber machen Sie es tun, was Sie brauchen, um zu tun. Erzählen Sie "
+#~ "mir von den Funktionen, die Sie wollen!"
+
+#~ msgid "Please rate this plugin"
+#~ msgstr "Bitte bewerten Sie dieses Plugin"
+
+#~ msgid "Shortcode Usage"
+#~ msgstr "Shortcode-Verwendung"
+
+#~ msgid "List Settings Instructions"
+#~ msgstr "Listeneinstellungen"
+
+#~ msgid "Uploader Settings Instructions"
+#~ msgstr "Einstellungen für den Uploader öffnen"
+
+#~ msgid "How to Customize the Look"
+#~ msgstr "Wie man den Look anpasst"
+
+#~ msgid ""
+#~ "Simple File List styles can be over-written in your theme's CSS to "
+#~ "achieve the look you need."
+#~ msgstr ""
+#~ "Einfache Dateilisten-Stile können in der CSS Ihres Themas überschrieben "
+#~ "werden, um das Aussehen zu erreichen, das Sie benötigen."
+
+#~ msgid "Please refer to the CSS styling documentation here:"
+#~ msgstr "Die CSS-Styling-Dokumentation finden Sie hier:"
+
+#~ msgid "Search by date and/or file name."
+#~ msgstr "Suchen Sie nach Datum und/oder Dateinamen."
+
+#~ msgid "File Download"
+#~ msgstr "Datei Download"
+
+#~ msgid "Downloading"
+#~ msgstr "Wird heruntergeladen"
+
+#~ msgid "If the download fails to start"
+#~ msgstr "Wenn der Download nicht startet"
+
+#~ msgid "Close this Window"
+#~ msgstr "Schließen Sie dieses Fenster"
+
+#~ msgid "Copy Shortcode to Clipboard"
+#~ msgstr "Sportcode in Zwischenablage kopieren"
+
+#~ msgid "Basic Shortcode"
+#~ msgstr "Grundlagen-Shortcode"
+
+#~ msgid "Optional Attributes"
+#~ msgstr "Optionale Attribute"
+
+#~ msgid "You can use the shortcode to override the main plugin settings."
+#~ msgstr ""
+#~ "Sie können den Shortcode verwenden, um die wichtigsten Plugin-"
+#~ "Einstellungen zu überschreiben."
+
+#~ msgid "Show or hide the uploader"
+#~ msgstr "Den Uploader anzeigen oder verstecken"
+
+#~ msgid "Show or hide the file thumbnail column"
+#~ msgstr "Die Miniaturspalte anzeigen oder ausblenden"
+
+#~ msgid "Show or hide the file date column"
+#~ msgstr "Anzeige oder Verstecken der Dateidatensäule"
+
+#~ msgid "Show or hide the file size column"
+#~ msgstr "Anzeige oder Verstecken der Dateigrößenspalte"
+
+#~ msgid "The List: ON, Logged-in, Admins Only or OFF"
+#~ msgstr "Die Liste: ON, Logged-in, Admins Only oder OFF"
+
+#~ msgid ""
+#~ "Display the file list to everyone, just to logged in users, just to "
+#~ "administrators or to nobody. You can use the uploader without showing the "
+#~ "file list."
+#~ msgstr ""
+#~ "Zeigen Sie die Datei-Liste für alle an, nur für eingeloggte Benutzer, nur "
+#~ "für Administratoren oder für niemanden. Sie können den Uploader "
+#~ "verwenden, ohne die Dateiliste anzuzeigen."
+
+#~ msgid "Thumbnail, Name, Date, Size, and Owner"
+#~ msgstr "Miniaturbnail, Name, Datum, Größe und Eigentümer"
+
+#~ msgid "Sort the list by File Name, Date, or Size"
+#~ msgstr "Sortieren Sie die Liste nach Dateinamen, Datum oder Größe"
+
+#~ msgid "Sort By: Name, Date, File Size, or Randomly"
+#~ msgstr "Sortieren Sie durch: Name, Datum, Dateigröße oder Randomly"
+
+#~ msgid ""
+#~ "You can sort the file list by the file name, its date, its size or "
+#~ "randomly."
+#~ msgstr ""
+#~ "Sie können die Dateiliste nach dem Dateinamen, seinem Datum, seiner Größe "
+#~ "oder zufällig sortieren."
+
+#~ msgid ""
+#~ "The file date format uses the format selected on your Wordpress General "
+#~ "Settings page."
+#~ msgstr ""
+#~ "Das Dateidaten-Format verwendet das Format, das auf der Seite \"Wordpress "
+#~ "General Settings\" ausgewählt wurde."
+
+#~ msgid "Reverse Order: Normal or Descending"
+#~ msgstr "Umkehrung der Ordnung: Normal oder Abstieg"
+
+#~ msgid ""
+#~ "Check this box to reverse the default sort order. The list is sorted "
+#~ "Ascending by default: A to Z, Small to Large, Old to New"
+#~ msgstr ""
+#~ "Klicken Sie auf dieses Kästchen, um die Standardsortierung rückgängig zu "
+#~ "machen. Die Liste ist standardmäßig als Aufsteiger sortiert: A bis Z, "
+#~ "Klein bis groß, Alt bis Neu"
+
+#~ msgid "Check this box to show the file list table header."
+#~ msgstr ""
+#~ "Klicken Sie auf dieses Kästchen, um den Kopf der Dateiliste anzuzeigen."
+
+#~ msgid "The table header provides sorting functionality."
+#~ msgstr "Der Tabellenkopf bietet Sortierfunktionen."
+
+#~ msgid ""
+#~ "Check this box to show the File Actions links just below the file name on "
+#~ "the front-side list."
+#~ msgstr ""
+#~ "Klicken Sie auf dieses Kästchen, um die Datei-Actions-Links unterhalb des "
+#~ "Dateinamens auf der vorderen Seite zu zeigen."
+
+#~ msgid "These links will always appear on the admin-side."
+#~ msgstr "Diese Links werden immer auf der Admin-Seite angezeigt."
+
+#~ msgid ""
+#~ "The download option can be helpful for large PDF, image and video files."
+#~ msgstr ""
+#~ "Die Download-Option kann für große PDF, Bild-und Videodateien hilfreich "
+#~ "sein."
+
+#~ msgid "Allow Front-side Delete"
+#~ msgstr "Auf der Seite der Grenzen löschen lassen"
+
+#~ msgid ""
+#~ "Check this box to allow users on the front-side of the site to delete "
+#~ "files."
+#~ msgstr ""
+#~ "Klicken Sie auf dieses Kästchen, um die Standardsortierung rückgängig zu "
+#~ "machen."
+
+#~ msgid ""
+#~ "Use extreme caution with this feature because deleted files cannot be "
+#~ "recovered."
+#~ msgstr ""
+#~ "Verwenden Sie mit dieser Funktion extreme Vorsicht, da gelöschte Dateien "
+#~ "nicht wiederhergestellt werden können."
+
+#~ msgid "File Uploader Display"
+#~ msgstr "Datei-Uploader Anzeige"
+
+#~ msgid "ON, Logged-in, Admins Only or OFF"
+#~ msgstr "ON, Logged-in, Admins Only oder OFF"
+
+#~ msgid ""
+#~ "Display the uploader to everyone, just to logged in users, just to "
+#~ "administrators or to nobody. You can use the list without showing the "
+#~ "uploader."
+#~ msgstr ""
+#~ "Zeigen Sie den Uploader für alle an, nur für eingeloggte Benutzer, nur "
+#~ "für Administratoren oder für niemanden. Sie können die Liste verwenden, "
+#~ "ohne den Uploader anzuzeigen."
+
+#~ msgid "This is relative to your public home folder."
+#~ msgstr "Dies ist relativ zu Ihrem öffentlichen Home-Ordner."
+
+#~ msgid ""
+#~ "Changing the path will create a new directory if it does not yet exist. "
+#~ "(Your website must use a FQDN in order to change this path"
+#~ msgstr ""
+#~ "Wenn Sie den Pfad ändern, wird ein neues Verzeichnis erstellt, wenn es "
+#~ "noch nicht existiert. (Ihre Website muss einen FQDN verwenden, um diesen "
+#~ "Weg zu ändern"
+
+#~ msgid ""
+#~ "You can limit the number of files that can be uploaded per submission"
+#~ msgstr ""
+#~ "Sie können die Anzahl der Dateien begrenzen, die pro Einreichung "
+#~ "hochgeladen werden können"
+
+#~ msgid ""
+#~ "You can limit the size of the file to be uploaded. Your hosting limits "
+#~ "the maximum file upload size to"
+#~ msgstr ""
+#~ "Sie können die Größe der Datei, die hochgeladen werden soll, begrenzen. "
+#~ "Ihr Hosting begrenzt die maximale Datei-Upload-Größe auf"
+
+#~ msgid "Get Uploader's Information?: YES or NO"
+#~ msgstr "Informationen über Uploader?: JA oder NEIN"
+
+#~ msgid ""
+#~ "This displays a form which must be filled out; Name, email, and optional "
+#~ "text notes.\n"
+#~ "Submissions are sent to the Notice Email."
+#~ msgstr ""
+#~ "Dies zeigt ein Formular an, das ausgefüllt werden muss; Name, E-Mail und "
+#~ "optionale Textnotizen.\n"
+#~ "Einsendungen werden an die Nachricht E-Mail geschickt."
+
+#~ msgid ""
+#~ "Restrict the types of files that can be uploaded. Only accept the file "
+#~ "types you absolutely need"
+#~ msgstr ""
+#~ "Schränken Sie die Arten von Dateien ein, die hochgeladen werden können. "
+#~ "Akzeptieren Sie nur die Dateitypen, die Sie unbedingt benötigen"
+
+#~ msgid "Full Featured File List with Front-Side File Uploader"
+#~ msgstr "Volle Liste mit Front-Side-Datei-Uploader"
+
+#~ msgid "Directories"
+#~ msgstr "Verzeichnisse"
+
+#~ msgid "Directory"
+#~ msgstr "Verzeichnis"
+
+#~ msgid "Deleted the Thumbnail File"
+#~ msgstr "Die Thumbnail-Datei gelöscht"
+
+#~ msgid "Show File Owner"
+#~ msgstr "Dateibesitzer anzeigen"
+
+#~ msgid "Track the Owner?"
+#~ msgstr "Spur der Eigentümer?"
+
+#~ msgid "This will append the Wordpress user ID to the file name."
+#~ msgstr "Dadurch wird die Wordpress-Benutzer-ID an den Dateinamen angehängt."
+
+#~ msgid ""
+#~ "You can use the shortcode to hide the list or the uploader. This allows "
+#~ "you to place the list in one place and the uploader in another."
+#~ msgstr ""
+#~ "Sie können den Shortcode verwenden, um die Liste oder den Uploader zu "
+#~ "verstecken. Damit können Sie die Liste an einem Ort und den Uploader an "
+#~ "einem anderen platzieren."
+
+#, fuzzy
+#~ msgid "http://elementengage.com/ee-simple-file-list/"
+#~ msgstr "http://elementengage.com/ee-simple-file-list/"

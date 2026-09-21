@@ -69,6 +69,47 @@ activate_plugin wp-file-upload 4.12.2
 activate_plugin wp-file-manager 6.0
 activate_plugin duplicator 1.3.26
 activate_plugin custom-content-type-manager 0.9.8.1
+activate_plugin wpdiscuz 7.0.4
+activate_plugin simple-file-list 4.2.2
+activate_plugin email-subscribers 4.2.2
 # wp-time-capsule    1.21.15   # authentication bypass (CVE-2020-8771) - activation causes errors, left disabled
+
+# Simple File List (CVE-2020-36847) uploads into wp-content/uploads/simple-file-list/.
+# Create the tree up-front and hand it to the Apache user so the unauthenticated
+# upload endpoint works immediately. Idempotent.
+if [ ! -d "/var/www/html/wp-content/uploads" ]; then
+  mkdir -p /var/www/html/wp-content/uploads/simple-file-list
+  chown -R www-data:www-data /var/www/html/wp-content/uploads
+  echo "Created wp-content/uploads for Simple File List."
+fi
+
+# Email Subscribers (CVE-2019-19985): the unauthenticated exporter dumps rows
+# from the plugin's own tables (wp_ig_*). Seed 3 contacts so the CSV is
+# populated out of the box. Guarded: only runs when the table is empty.
+wp eval '
+  global $wpdb;
+  $t = $wpdb->prefix . "ig_contacts";
+  if ( (int) $wpdb->get_var( "SELECT COUNT(*) FROM $t" ) === 0 ) {
+    $wpdb->insert( $wpdb->prefix . "ig_lists",
+      array( "slug" => "newsletter", "name" => "Newsletter" ) );
+    $list_id = (int) $wpdb->insert_id;
+    foreach ( array( "Alice", "Bob", "Eve" ) as $first ) {
+      $email = strtolower( $first ) . "@example.com";
+      $wpdb->insert( $t,
+        array(
+          "email" => $email, "first_name" => $first, "last_name" => "Example",
+          "source" => "widget", "status" => "subscribed", "hash" => md5( $email ),
+          "created_at" => current_time( "mysql" ), "updated_at" => current_time( "mysql" ),
+        ) );
+      $wpdb->insert( $wpdb->prefix . "ig_lists_contacts",
+        array(
+          "list_id" => $list_id, "contact_id" => (int) $wpdb->insert_id,
+          "status" => "subscribed", "optin_type" => 1,
+          "subscribed_at" => current_time( "mysql" ),
+        ) );
+    }
+    echo "Seeded Email Subscribers contacts.\n";
+  }
+' --allow-root || echo "WARNING: could not seed Email Subscribers contacts (non-fatal)"
 
 echo "DVWP setup finished."

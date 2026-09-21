@@ -1,0 +1,334 @@
+/* Simple File List Script: eeStyle.css | Author: Mitchell Bennis | support@simplefilelist.com | Revised: 12.12.2019 */
+
+.eeSFL {
+	padding: 1em;
+}
+
+.eeSFL h1, .eeSFL p {
+	text-align: left;
+}
+
+.eeSFL form {
+	border: 2px solid #DDD;
+	padding: 1.5em;
+	padding-top: .5em;
+	margin: 1em auto;
+}
+
+.eeSFLContactInfo {
+	clear: both;
+	padding: 20px;
+	width: 100%;
+}
+
+.eeSFL_Spacer {
+	width: 100%;
+	height: 1em;
+	clear: both;
+}
+
+.eeSFL label {
+	float: left;
+}
+
+
+
+
+.eeSFL table.eeFiles {
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #999;
+	text-align: center;
+}
+
+
+.eeSFL .eeFiles tr:hover {
+	background: #FFF;
+}
+.eeSFL .eeFiles th {
+	text-align: center;
+	background: #555;
+	color: #EEE; 
+	cursor: pointer;
+}
+.eeSFL .eeFiles td {
+	padding: .25em 0;
+	border-bottom: 1px solid #999;
+	text-overflow: clip;
+	overflow: hidden;
+	vertical-align: middle;
+}
+.eeSFL th,
+.eeSFL td {
+	word-break: normal;
+	width: auto;
+}
+.eeSFL td.eeSFL_Thumbnail {
+	width: 64px;
+}
+.eeSFL td.eeSFL_Thumbnail img {
+	display: block;
+	margin: 0 auto;
+}
+.eeSFL td.eeSFL_FileName {
+	text-align: left;
+	padding-left: 3px;
+}
+.eeSFL p.eeSFL_FileLink,
+.eeSFL p.eeSFL_FileDesc,
+.eeSFL p.eeSFL_FileSubmitter {
+	margin: 0;
+	padding: 0;
+}
+.eeSFL p.eeSFL_FileDesc,
+.eeSFL p.eeSFL_FileSubmitter {
+	font-size: 80%;
+}
+.eeSFL .eeFiles th.eeSFL_FileName,
+.eeSFL .eeFiles td.eeSFL_FileName {
+	text-align: left;
+	padding-left: 10px;
+}
+.eeSFL .eeFiles td a {
+	text-decoration: none;
+}
+.eeSFL input[type=file] {
+	float: left;
+	margin-bottom: 1em;
+	font-size: 120%;
+}
+
+
+
+
+#eeMessageDisplay ul {
+	list-style: none;
+}
+#eeMessageDisplay ul li:before {
+	content: '✓ ';
+}
+
+
+#eeSFL_FileDropZone {
+	padding: 10px;
+	border: 5px dashed #c7c7c7;
+}
+#eeSFL_FilesDrug {
+	margin-left: 20px;
+	margin-bottom: 1em;
+	font-size: 120%;
+}
+#eeSFL_UploadGo {
+	float: left;
+	margin-left: 20px;
+}
+#eeSFL_UploadProgress {
+	
+	display: none; /* Show with javascript */
+	overflow: hidden;
+	width: 1%;
+	height: 2em;
+	line-height: 2em;
+	background-color: #23e100;
+	color: #FFF;
+	font-size: 1em;
+	text-align: center;
+	vertical-align: text-top;
+}
+#eeSFL_UploadProgress em {
+	display: none; /* Show with javascript */
+}
+
+#eeUploadInfoForm {
+	margin-bottom: 20px;
+}
+#eeUploadInfoForm label,
+#eeUploadInfoForm input[type=text],
+#eeUploadInfoForm input[type=email] {
+	float: left;
+	margin-bottom: 5px;
+
+}
+#eeUploadInfoForm label {
+	width: 15%;
+	clear: left;
+	margin-right: 10px;
+}
+
+.eeSFL_UploadingImg,
+.entry-content .eeSFL_UploadingImg {
+	margin-right: 1em;
+	box-shadow: none !important;
+	border-radius: 32px;
+}
+
+
+
+
+
+
+.eeSFL .eeSFL_EditFileWrap {
+	display: none;
+	width: auto;
+	margin: 5px 0;
+	padding: 10px 3%;
+	border: 1px solid #6b6b6b;
+	border-radius: 6px;
+	background-color: #f6f6f6;
+}
+.eeSFL .eeSFL_EditFileWrap h4 {
+	margin: 0;
+}
+.eeSFL .eeSFL_EditFileWrap label {
+	float: none;
+	display: inline-block;
+	width: 98%;
+	margin: 0;
+	text-align: left;
+	font-size: 80%;
+}
+.eeSFL .eeSFL_EditFileWrap input[type=text] {
+	float: right;
+	display: inline-block;
+	width: 80%;
+	margin: 0; 
+}
+.eeSFL .eeSFL_EditFileWrap .eeDeleteButton:hover {
+	background-color: #a93838;
+	color: #EEE;
+}
+
+
+
+
+
+#eeSFL_SendPop {
+	
+	position: fixed; /* Sit on top of the page content */
+	display: none; /* Show with JS */
+	width: 60%;
+	height: 80%;
+	top: 10%; 
+	left: 20%;
+	right: 20%;
+	bottom: 10%;
+	background-color: rgba(245, 245, 245, 1);
+	border: 1px solid #666;
+	z-index: 100;
+	overflow: auto;
+	-webkit-overflow-scroll: touch;
+	
+}
+#eeSFL_SendPop h2,
+#eeSFL_SendPop h3,
+#eeSFL_SendPop p {
+	margin: 0 0 10px 0;
+}
+#eeSFL_SendTheseFilesList {
+	margin-left: 4%;
+}
+#eeSFL_SendPop article {
+	margin: 3%;
+	padding-right: 2%;
+	height: 100%;
+/* 	overflow-y: scroll; */
+}
+#eeSFL_SendPop article p {
+	
+}
+#eeSFL_SendPop #eeSFL_Send_AddFiles {
+	display: block;
+	float: right;
+}
+#eeSFL_SendPop form {
+	border: none;
+	padding: 0;
+}
+#eeSFL_SendPop label {
+	float: left;
+	clear: both;
+	width: 30%;
+	height: 2em;
+	line-height: 2em;
+	margin: 15px 2% 0 0;
+	padding-right: 5px;
+	text-align: right;
+	background-color: #787878;
+	color: #FFF;
+}
+#eeSFL_SendPop note {
+	float: left;
+	clear: both;
+	margin: 0;
+}
+#eeSFL_SendPop input[type=text],
+#eeSFL_SendPop input[type=email],
+#eeSFL_SendPop textarea {
+	float: left;
+	clear: none;
+	width: 60%;
+	height: 2em;
+	margin: 15px 0 0 0;
+	background-color: #FFF;
+}
+#eeSFL_SendPop textarea {
+	height: 5em;
+}
+
+#eeSFL_SendPop p.eeSFL_SendButtons {
+	text-align: center;
+	margin-top: 1em;
+}
+
+#eeSFL_SendPop input[type="submit"],
+#eeSFL_SendPop button {
+	float: none;
+}
+#eeSFL_SendMoreFiles {
+	display: none;
+}
+
+
+
+
+
+
+
+.eeSFL p.sfl_instuctions {
+	font-size: 70%;
+	font-style: italic;
+	text-align: right;
+	margin-bottom: 0;
+}
+
+.eeValign {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.eeCenter {
+	text-align: center !important;
+}
+
+.eeAlignRight {
+	text-align: right;
+}
+
+.eeClearFix {
+	clear: both;
+}
+
+
+.eeSFL_Hide, 
+.eeSFL_FileRenameEntry, 
+.eeOldFileName,
+.eeSFL_SavedDesc {
+	display: none;
+}
+
+
+
+

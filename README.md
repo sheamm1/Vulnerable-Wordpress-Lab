@@ -163,6 +163,31 @@ field code slots are passed through `eval()`, letting an admin run arbitrary PHP
 > The `CVE-2014-4659` label sometimes seen for this plugin is a misattribution —
 > that ID belongs to Ansible, not this plugin.
 
+#### wpDiscuz `7.0.4` — Unauthenticated Arbitrary File Upload / RCE (CVE-2020-24186)
+Pulled in by `plugins/wpdiscuz`. The `wmuUploadFiles` AJAX action validates
+nothing: an unauthenticated attacker grabs the `wmuSecurity` nonce from any post
+page (the demo post works) and uploads a PHP webshell, achieving RCE. Massively
+exploited in the wild in 2021 (EPSS ~95th percentile).
+* Wordfence: https://www.wordfence.com/blog/2020/07/critical-arbitrary-file-upload-vulnerability-patched-in-wpdiscuz-plugin/
+* EDB: https://www.exploit-db.com/exploits/49962
+
+#### Simple File List `4.2.2` — Unauthenticated Arbitrary File Upload / RCE (CVE-2020-36847)
+Pulled in by `plugins/simple-file-list`. The front-end upload
+(`ee-upload-engine.php`) and rename (`ee-file-engine.php`) engines are reachable
+without authentication — the "nonce check" is dead code (registered on
+`plugins_loaded` after `wp-load.php` already fired it) and the token check uses
+a hardcoded salt (`unique_salt`). Upload a `.png` with embedded PHP, rename it to
+`.php`, and execute.
+* https://wpscan.com/vulnerability/365da9c5-a8d0-45f6-863c-1b1926ffd574
+* EDB: https://www.exploit-db.com/exploits/48979 (and 52371)
+
+#### Email Subscribers & Newsletters `4.2.2` — Unauthenticated Arbitrary Data Download (CVE-2019-19985)
+Pulled in by `plugins/email-subscribers`. The `download_report` exporter has no
+capability check: `admin.php?page=download_report&report=users&status=all`
+returns a CSV of all subscribers/contacts without logging in.
+* Wordfence: https://www.wordfence.com/blog/2019/11/multiple-vulnerabilities-patched-in-email-subscribers-newsletters-plugin/
+* EDB: https://www.exploit-db.com/exploits/48698
+
 ### Themes
 
 #### Twenty Twenty-Five `1.5`

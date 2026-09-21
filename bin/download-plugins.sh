@@ -23,6 +23,9 @@ PLUGINS=(
   "duplicator 1.3.26"
   "custom-content-type-manager 0.9.8.1"
   "wp-time-capsule 1.21.15"
+  "wpdiscuz 7.0.4"
+  "simple-file-list 4.2.2"
+  "email-subscribers 4.2.2"
 )
 
 THEMES=(
