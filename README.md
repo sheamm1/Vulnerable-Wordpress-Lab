@@ -38,6 +38,11 @@ The `wp-cli` service runs `bin/install-wp.sh` automatically: installs
 WordPress, imports demo data, and activates the vulnerable plugins/themes.
 The container exits when done — it is safe to re-run `docker-compose up -d`.
 
+Once running, the lab is available at:
+
+* **WordPress**: `http://127.0.0.1:31337`
+* **phpMyAdmin**: `http://127.0.0.1:31338`
+
 ## Usage
 
 ```bash
