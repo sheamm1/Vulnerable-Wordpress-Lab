@@ -47,17 +47,6 @@ docker-compose logs -f     # logs
 docker-compose exec wordpress bash  # shell
 ```
 
-## Default Access
-
-| Service    | URL                          | Default Credentials        |
-|------------|------------------------------|----------------------------|
-| WordPress  | `http://127.0.0.1:31337`    | `admin` / `admin`          |
-| Login      | `http://127.0.0.1:31337/wp-login.php` | `editor` / `editor` |
-| phpMyAdmin | `http://127.0.0.1:31338`    | `root` / `password`        |
-| MySQL      | (via phpMyAdmin)             | `wordpress` / `wordpress`  |
-
-> Change these defaults if you expose the lab to a network beyond localhost.
-
 ## Vulnerabilities
 
 The lab ships with a collection of intentionally vulnerable plugins, themes,
@@ -99,18 +88,6 @@ Chained they give **unauthenticated RCE** on default installations.
 
 * **CVE-2022-0813** — Pre-auth authentication bypass
 * **CVE-2022-23807, CVE-2022-23808** — Stored/reflected XSS
-
-### Intentional Misconfigurations
-
-The `otherz/` directory is mounted into the web root to simulate common
-real-world misconfigurations:
-
-* `display_errors = On` (PHP)
-* `info.php` — Full `phpinfo()` output
-* `dump.sql` — Database dump with user data
-* `adminer.php` — Adminer database UI
-* `cross-domain` — Respond.js cross-domain proxy
-* `search-replace-db` — Arbitrary DB manipulation tool
 
 ## Logs
 
